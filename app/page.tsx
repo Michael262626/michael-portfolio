@@ -34,8 +34,8 @@ export default function Home() {
       <header className="sticky top-0 z-50 w-full border-b border-[#222] bg-[#0a0a0a]/95 backdrop-blur supports-[backdrop-filter]:bg-[#0a0a0a]/60">
         <div className="container flex h-16 items-center justify-between">
           <Link href="/" className="font-bold text-xl group">
-            <span className="text-purple-500 transition-all duration-300 group-hover:text-white">Dev</span>
-            <span className="text-white transition-all duration-300 group-hover:text-purple-500">Portfolio</span>
+            <span className="text-purple-500 transition-all duration-300 group-hover:text-white">Michael</span>
+            <span className="text-white transition-all duration-300 group-hover:text-purple-500">Dikandu</span>
           </Link>
           <nav className="hidden md:flex">
             <ul className="flex space-x-1">
