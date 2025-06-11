@@ -201,7 +201,7 @@ export default function Home() {
                   My <span className="text-gradient animate-gradient">Journey</span>
                 </h2>
                 <p className="max-w-[900px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I'm a full stack developer with 5+ years of experience building web applications. My
+                  I'm a full stack developer with 3+ years of experience building web applications. My
                   journey began with a Computer Science degree, followed by roles at startups and enterprise companies
                   where I've honed my skills across the entire development stack.
                 </p>
@@ -256,11 +256,11 @@ export default function Home() {
                   <div className="absolute inset-0 bg-gradient-to-tr from-purple-600/10 to-transparent opacity-60 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
                   <img
-                    src="/profile1.jpg"
+                    src="/image.jpeg"
                     alt="About Me"
-                    className="mx-auto aspect-video overflow-hidden object-cover object-center sm:w-full lg:order-last mix-blend-luminosity group-hover:mix-blend-normal transition-all duration-500"
-                    width={500}
-                    height={310}
+                    className="mx-auto aspect-video  overflow-hidden object-cover sm:w-full lg:order-last mix-blend-luminosity group-hover:mix-blend-normal transition-all duration-500"
+                    width={600}
+                    height={210}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#111] via-transparent to-transparent"></div>
                 </div>
