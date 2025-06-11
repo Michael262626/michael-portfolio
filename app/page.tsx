@@ -258,7 +258,7 @@ export default function Home() {
                   <img
                     src="/image.jpeg"
                     alt="About Me"
-                    className="mx-auto aspect-video  overflow-hidden object-cover sm:w-full lg:order-last mix-blend-luminosity group-hover:mix-blend-normal transition-all duration-500"
+                    className="w-full mx-auto aspect-video overflow-hidden object-cover sm:w-full lg:order-last mix-blend-luminosity group-hover:mix-blend-normal transition-all duration-500"
                     width={600}
                     height={210}
                   />
