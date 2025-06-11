@@ -155,8 +155,8 @@ export default function Home() {
               <ScrollReveal direction="up" delay={0.8}>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
                   {[
-                    { value: "4+", label: "Years Experience" },
-                    { value: "50+", label: "Projects Completed" },
+                    { value: "3+", label: "Years Experience" },
+                    { value: "10+", label: "Projects Completed" },
                     { value: "20+", label: "Happy Clients" },
                     { value: "100%", label: "Client Satisfaction" },
                   ].map((stat, index) => (
