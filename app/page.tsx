@@ -332,11 +332,13 @@ export default function Home() {
                       "Express",
                       "Python",
                       "Django",
+                      "Java",
+                      "Dotnet",
                       "GraphQL",
                       "REST API",
                       "PostgreSQL",
                       "MongoDB",
-                      "Firebase",
+                      "Nest js",
                     ],
                   },
                   {
@@ -403,7 +405,8 @@ export default function Home() {
                       "Next.js",
                       "Node.js",
                       "TypeScript",
-                      "Python",
+                      "Java",
+                      "Dotnet",
                       "AWS",
                       "Docker",
                       "MongoDB",
@@ -466,6 +469,15 @@ export default function Home() {
                     color: "from-purple-600 to-indigo-600",
                   },
                   {
+                    title: "E-Commerce Platform",
+                    description:
+                      "A full-featured store for purchasing machines, inventory management, and admin dashboard.",
+                    tags: ["Next.js", "Prisma", "React"],
+                    githubUrl: "https://github.com/Michael262626/e-commerce.git",
+                    liveUrl: "https://e-commerce-plum-alpha.vercel.app/",
+                    color: "from-purple-600 to-indigo-600",
+                  },
+                  {
                     title: "MeetingMinds",
                     description:
                       "A medium where teams can do virtual meetings, while the summary of the meetings are been writing with key points.",
@@ -505,6 +517,24 @@ export default function Home() {
                     tags: ["React Native", "Weather API", "Redux", "Mapbox"],
                     githubUrl:"https://github.com/Michael262626/WeatherAppProject",
                     liveUrl:"https://weatherappproject001.vercel.app/",
+                    color: "from-indigo-600 to-blue-600",
+                  },
+                  {
+                    title: "Fx trading App",
+                    description:
+                    "A backend application for Forex trading that provides real-time currency data, trading charts, exchange rates, and more.",
+                    tags: ["Nestjs", "Typescript", "Postgresl"],
+                    githubUrl:"https://github.com/Michael262626/Fx_trading_app.git",
+                    // liveUrl:"https://weatherappproject001.vercel.app/",
+                    color: "from-indigo-600 to-blue-600",
+                  },
+                  {
+                    title: "Wallet",
+                    description:
+                    "A backend service for managing user wallets, supporting secure transactions, balance tracking, and currency conversions.",
+                    tags: ["Java", "Spring boot", "Postgresl"],
+                    githubUrl:"https://github.com/Michael262626/Fx_trading_app.git",
+                    // liveUrl:"https://weatherappproject001.vercel.app/",
                     color: "from-indigo-600 to-blue-600",
                   },
                   // {
