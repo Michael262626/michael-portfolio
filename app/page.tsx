@@ -255,13 +255,13 @@ export default function Home() {
                 <div className="relative overflow-hidden rounded-xl border border-purple-500/10 bg-[#111] group hover:border-purple-500/30 transition-all duration-500 hover:shadow-lg hover:shadow-purple-500/10">
                   <div className="absolute inset-0 bg-gradient-to-tr from-purple-600/10 to-transparent opacity-60 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
-                  <img
+                  {/* <img
                     src="/image.jpeg"
                     alt="About Me"
                     className="w-full mx-auto aspect-video overflow-hidden object-cover sm:w-full lg:order-last mix-blend-luminosity group-hover:mix-blend-normal transition-all duration-500"
                     width={600}
                     height={210}
-                  />
+                  /> */}
                   <div className="absolute inset-0 bg-gradient-to-t from-[#111] via-transparent to-transparent"></div>
                 </div>
               </ScrollReveal>
