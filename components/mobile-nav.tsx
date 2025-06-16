@@ -31,7 +31,7 @@ export function MobileNav() {
         onClick={toggleMenu}
         className="text-gray-300 hover:text-purple-400 hover:bg-purple-500/5"
       >
-        <Menu className="h-6 w-6" />
+        <Menu className="h-6 w-6"/>
         <span className="sr-only">Toggle menu</span>
       </Button>
 
@@ -55,14 +55,14 @@ export function MobileNav() {
               </Button>
             </div>
 
-            <nav className="space-y-6">
+            <nav className="space-y-6 bg-black/80 backdrop-blur-sm z-50">
               <ul className="space-y-4">
                 {navItems.map((item) => (
                   <li key={item.name}>
                     <Link
                       href={item.href}
                       onClick={closeMenu}
-                      className="block py-2 px-4 text-lg font-medium text-gray-300 hover:text-purple-400 hover:bg-purple-500/5 rounded-md transition-colors"
+                      className="block text-white py-2 px-4 text-lg font-medium text-gray-300 hover:text-purple-400 hover:bg-purple-500/5 rounded-md transition-colors"
                     >
                       {item.name}
                     </Link>
